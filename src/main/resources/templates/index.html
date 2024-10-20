@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Clinic</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            margin: 1em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            flex: 1;
+            display: grid;
+            grid-template-rows: repeat(2, 1fr); /* 2 rows for main sections */
+            grid-template-columns: repeat(2, 1fr); /* 2 columns for patient images and services */
+            overflow: hidden; /* Hide overflow */
+        }
+        section {
+            padding: 20px;
+            margin: 5px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 5px 0; /* Spacing between images */
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #28a745;
+            color: white;
+        }
+        .patient-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100%; /* Allow images to fill section */
+        }
+        .patient-images img {
+            flex: 1 1 30%; /* Make images responsive */
+            margin: 5px; /* Space between images */
+            max-height: 150px; /* Limit height */
+            object-fit: cover; /* Cover the space without stretching */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Pet Clinic</h1>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#appointment">Make an Appointment</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<main>
+    <section class="patient-images">
+        <h2>Meet Our Cute Patients</h2>
+        <img src="https://kanatalakesvet.ca/wp-content/uploads/2019/03/shutterstock_307771808-1.jpg" alt="Cute Pet 1" />
+        <img src="https://kamilveterinaryclinic.com/wp-content/uploads/2023/11/IMG-20231105-WA0014.jpg" alt="Cute Pet 2" />
+        <img src="https://bizimages.withfloats.com/tile/6198c0067db6520001bc3618.jpg" alt="Cute Pet 3" />
+        <img src="https://images.ctfassets.net/rt5zmd3ipxai/NFajLhckzn6Yv56FvdIB7/c85625133ca5fc69b48cd85d4d6a6e3d/NVA_Var-C_HERO_Brookswood.jpg?fit=fill&fm=webp&h=567&w=880&q=75" alt="Cute Pet 4" />
+        <img src="https://sharpsheets.io/wp-content/uploads/2023/11/veterinary-clinic.jpg.webp" alt="Cute Pet 5" />
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Routine Check-ups</li>
+            <li>Vaccinations</li>
+            <li>Dental Care</li>
+            <li>Grooming Services</li>
+            <li>Emergency Care</li>
+        </ul>
+    </section>
+
+    <section id="appointment">
+        <h2>Make an Appointment</h2>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="pet-name">Pet's Name:</label><br>
+            <input type="text" id="pet-name" name="pet-name" required><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="date">Preferred Date:</label><br>
+            <input type="date" id="date" name="date" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@petclinic.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Pet Clinic Road, City, Country</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Pet Clinic. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
