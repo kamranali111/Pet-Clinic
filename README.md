@@ -50,22 +50,32 @@ Use the following command to build and run the project:
 
 The application will start using Java 17 and run on port 8090 by default. Access it by navigating to http://localhost:8090 in your web browser.
 
-Dockerizing the Application
+
+# Dockerizing the Application
 This project uses a multi-stage build to create a Docker image, reducing the final image size.
 
-Create a Dockerfile in the root of your project:
+ Create a Dockerfile in the root of your project:
 
 # Dockerfile
 
 FROM gradle:7.6.0-jdk17 AS build
+
 WORKDIR /app
+
 COPY . .
+
 RUN ./gradlew clean build -x test
+
 FROM openjdk:17-jdk-slim
+
 WORKDIR /app
+
 COPY --from=build /app/build/libs/pet-clinic.jar app.jar
+
 EXPOSE 8090
+
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
 
 **Build the Docker image:**
 
