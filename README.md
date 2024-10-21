@@ -145,5 +145,6 @@ Feel free to fork this repository, make changes, and submit a pull request. All 
 
 [![Facebook](https://img.shields.io/badge/Facebook-Profile-blue?logo=facebook&logoColor=white&style=for-the-badge)](https://web.facebook.com/p/kamran-100004855200872/)
 
-📧 [kamranali.it111@gmail.com](mailto:kamranali.it111@gmail.com)
+[![Email](https://img.shields.io/badge/Email-kamranali.it111@gmail.com-orange?logo=gmail&logoColor=white&style=for-the-badge)](mailto:kamranali.it111@gmail.com)
+
 
