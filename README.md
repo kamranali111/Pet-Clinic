@@ -81,23 +81,18 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 
 docker build -t pet-clinic .
+
 Run the Docker container:
 
 
 docker run -p 8090:8090 pet-clinic
+
 The application will now be accessible at http://localhost:8090.
 
 Integrating SonarQube for Code Analysis
 Ensure SonarQube is running locally or on a server.
 
-Update build.gradle to include the SonarQube plugin:
 
-
-./gradlew sonarqube \
--Dsonar.projectKey=pet-clinic \
--Dsonar.host.url=http://localhost:9000 \
--Dsonar.login=your-sonar-token
-Replace your-sonar-token with your actual SonarQube token.
 
 Contributing
 Feel free to fork this repository, make changes, and submit a pull request. All contributions are welcome!
@@ -106,5 +101,5 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any questions or feedback, please reach out to me via email: your-email@example.com.
+For any questions or feedback, please reach out to me via email: kamranali.it111@gmail.com.com.
 
