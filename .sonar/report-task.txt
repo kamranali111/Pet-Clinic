@@ -1,0 +1,6 @@
+projectKey=pet-clinic
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=pet-clinic
+ceTaskId=92142568-e812-4780-a724-2b69ffd9ebb4
+ceTaskUrl=http://localhost:9000/api/ce/task?id=92142568-e812-4780-a724-2b69ffd9ebb4
