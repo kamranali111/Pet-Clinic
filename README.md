@@ -4,6 +4,13 @@ Hello, everyone! Welcome to the repository for the Pet Clinic project. This proj
 
 ![Screenshot from 2024-10-21 19-53-50](https://github.com/user-attachments/assets/277f6a4c-b65d-4d4a-8137-ca1f6cc07ee2)
 
+Project Overview
+In this tutorial, we will cover the following topics:
+
+Running the Project Locally: Get the Spring Boot application up and running on your local machine.
+Dockerizing the Application: Write a Dockerfile using a multi-stage build for efficient Docker images.
+Running the Application in a Docker Container: Build and run the Docker container, making the application accessible through a specified port.
+Integrating SonarQube for Code Analysis: Set up SonarQube to analyze your codebase and perform quality checks.
 Prerequisites
 Make sure you have the following installed on your machine:
 
@@ -109,4 +116,16 @@ Contact
 For any questions or feedback, please reach out to me via email: your-email@example.com.
 
 This version of the README includes detailed instructions for using the multi-stage Docker build and better aligns with the project structure. Feel free to adapt or modify it as needed!
+
+
+
+
+
+
+
+
+
+
+
+ChatGPT can make mistakes. Check important info.
 
