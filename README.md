@@ -13,7 +13,7 @@ This project covers the following topics:
 
 - **Running the Project Locally**: Get the Spring Boot application up and running on your local machine.
 - **Dockerizing the Application**: Create a Dockerfile using a multi-stage build for efficient Docker images.
-- **Running the Application in a Docker Container**: Build and run the Docker container to make the application accessible through a specific port.
+- **Running the Application in a Docker Container**: Run the Docker container to make the application accessible through a specific port.
 - **Integrating SonarQube for Code Analysis**: Set up SonarQube for analyzing the codebase and performing quality checks.
 
 ---
