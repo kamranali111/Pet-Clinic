@@ -114,14 +114,11 @@ Feel free to fork this repository, make changes, and submit a pull request. All 
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
 ## Connect with Me
 
 [![YouTube](https://img.shields.io/badge/YouTube-Channel-red?logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/@KamranAli-lx6cm)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/kamran-ali-devops)
+
 [![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome&logoColor=white&style=for-the-badge)](https://www.kamrandevops.com/)
+
