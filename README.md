@@ -142,3 +142,8 @@ Feel free to fork this repository, make changes, and submit a pull request. All 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/kamran-ali-devops)
 
 [![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome&logoColor=white&style=for-the-badge)](https://www.kamrandevops.com/)
+
+[![Facebook](https://img.shields.io/badge/Facebook-Profile-blue?logo=facebook&logoColor=white&style=for-the-badge)](https://web.facebook.com/p/kamran-100004855200872/)
+
+📧 [kamranali.it111@gmail.com](mailto:kamranali.it111@gmail.com)
+
