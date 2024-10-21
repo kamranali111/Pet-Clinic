@@ -1,9 +1,8 @@
-
 # Pet Clinic Project
 
 Hello, everyone! Welcome to the repository for the Pet Clinic project. This project demonstrates how to build and Dockerize a Spring Boot application. Below, you'll find instructions for running the application locally and using Docker, as well as integrating SonarQube for code quality checks.
 
-![Screenshot from 2024-10-21 19-53-50](https://github.com/user-attachments/assets/277f6a4c-b65d-4d4a-8137-ca1f6cc07ee2)
+![Screenshot from 2024-10-21 19-53-50](https://github.com/user-attachments/assets/2742e26f-096e-428b-9042-ba16f5bcf159)
 
 ---
 
@@ -121,14 +120,8 @@ This project is licensed under the MIT License.
 
 ---
 
-## Contact
-
-For any questions or feedback, please reach out to me via email: [kamranali.it111@gmail.com](mailto:kamranali.it111@gmail.com)
-
----
-
 ## Connect with Me
 
 [![YouTube](https://img.shields.io/badge/YouTube-Channel-red?logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/@KamranAli-lx6cm)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/kamran-ali-devops)
 [![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome&logoColor=white&style=for-the-badge)](https://www.kamrandevops.com/)
