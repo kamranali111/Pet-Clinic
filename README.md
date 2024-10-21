@@ -2,10 +2,11 @@
 
 Hello, everyone! Welcome to the repository for the Pet Clinic project. This project demonstrates how to build and Dockerize a Spring Boot application. Below, you'll find instructions for running the application locally and using Docker, as well as integrating SonarQube for code quality checks.
 
+![Screenshot from 2024-10-21 19-53-50](https://github.com/user-attachments/assets/277f6a4c-b65d-4d4a-8137-ca1f6cc07ee2)
 
 
 
-Project Overview!
+# Project Overview!
 
 
 In this tutorial, we will cover the following topics:
