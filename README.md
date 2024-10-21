@@ -16,17 +16,21 @@ In this Project, we will cover the following topics:
 
 **Integrating SonarQube for Code Analysis:** Set up SonarQube to analyze your codebase and perform quality checks.
 
-# Prerequisites**
+# Prerequisites
 Make sure you have the following installed on your machine:
 
 **Java 17**
+
 **Gradle**
+
 **Docker**
+
 **SonarQube (for code analysis)**
 
 # Getting Started
 
 **Cloning the Repository**
+
 Clone the repository from my GitHub account:
 
 git clone https://github.com/kamranali111/Pet-Clinic.git
@@ -43,6 +47,7 @@ cd ~/workspace/Pet-Clinic
 Use the following command to build and run the project:
 
 ./gradlew bootrun
+
 The application will start using Java 17 and run on port 8090 by default. Access it by navigating to http://localhost:8090 in your web browser.
 
 Dockerizing the Application
