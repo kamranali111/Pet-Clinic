@@ -4,7 +4,9 @@ Hello, everyone! Welcome to the repository for the Pet Clinic project. This proj
 
 
 
-Project Overview![Uploading Screenshot from 2024-10-21 19-53-50.png…]()
+
+Project Overview!
+
 
 In this tutorial, we will cover the following topics:
 
