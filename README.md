@@ -9,8 +9,11 @@ Hello, everyone! Welcome to the repository for the Pet Clinic project. This proj
 In this Project, we will cover the following topics:
 
 **Running the Project Locally:** Get the Spring Boot application up and running on your local machine.
+
 **Dockerizing the Application:** Write a Dockerfile using a multi-stage build for efficient Docker images.
+
 **Running the Application in a Docker Container:** Build and run the Docker container, making the application accessible through a specified port.
+
 **Integrating SonarQube for Code Analysis:** Set up SonarQube to analyze your codebase and perform quality checks.
 
 # Prerequisites**
@@ -49,34 +52,17 @@ Create a Dockerfile in the root of your project:
 
 # Dockerfile
 
-# Use Gradle with JDK 17 for building the application.
 FROM gradle:7.6.0-jdk17 AS build
-
-# Set the working directory inside the container.
 WORKDIR /app
-
-# Copy all application files into the container's /app directory.
 COPY . .
-
-# Run the Gradle build, skipping tests.
 RUN ./gradlew clean build -x test
-
-# Use a slim JDK image for a smaller final runtime image.
 FROM openjdk:17-jdk-slim
-
-# Set the working directory for the runtime environment.
 WORKDIR /app
-
-# Copy the built JAR from the build stage.
 COPY --from=build /app/build/libs/pet-clinic.jar app.jar
-
-# Specify the port that the Spring Boot app will run on.
 EXPOSE 8090
-
-# Define the command to run the JAR when the container starts.
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
-Build the Docker image:
+**Build the Docker image:**
 
 
 docker build -t pet-clinic .
