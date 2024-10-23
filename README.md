@@ -84,7 +84,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 ### Build the Docker Image
 
 ```bash
-docker build -t pet-clinic .
+docker build -t pet-clinic:latest .
 ```
 
 ### Run the Docker Container
